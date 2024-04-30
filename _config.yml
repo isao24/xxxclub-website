@@ -56,3 +56,7 @@ plugins:
 
 
 permalink: none
+
+collections:
+  schedules:
+    output: true

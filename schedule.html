@@ -5,9 +5,10 @@ title: 予定
 <h2>予定</h2>
 
 <ul>
-  {% for post in site.posts %}
+
+  {% for schedule in site.schedules %}
     <li>
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <h3><a href="{{ schedule.url | relative_url }}">{{ schedule.title }}</a></h3>
     </li>
   {% endfor %}
 </ul>
